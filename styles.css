@@ -2,7 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 /* Variables */
 :root {
-
+    /* colors */
+  --yellow: #F4D04E;
+  --gray-light: #6B6B6B;
+  --gray-dark: #111111;
+  --white: #ffffff;
+    /* font sizes  */
+  --bold: ;
+  --medium-sm: 14px;
+  --medium: 16px;
+  --extra-bold: 24px;
+  --extra-bold-sm: 14px;
+    /* spacing */
+  --200-space: 
 }
 /* -------Global--------- */
+
+body {
+    background-color: var(--yellow);
+}
 /* -------Container--------- */
