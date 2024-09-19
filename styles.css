@@ -8,17 +8,40 @@
   --gray-dark: #111111;
   --white: #ffffff;
     /* font sizes  */
-  --bold: ;
   --medium-sm: 14px;
   --medium: 16px;
   --extra-bold: 24px;
   --extra-bold-sm: 14px;
     /* spacing */
-  --200-space: 
+  --space-200: 16px;
+  --spacing-150: 12px;
+  --spacing-100: 8px;
+  --spacing-50: 4px;
 }
 /* -------Global--------- */
 
 body {
     background-color: var(--yellow);
+    font-family: "Figtree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
 }
-/* -------Container--------- */
+/* -------Containers--------- */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 327px;
+    padding: var(--space-200);
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-150);
+}
