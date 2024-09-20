@@ -1,34 +1,41 @@
 /* ----------------Font---------------- */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 /* Variables */
 :root {
     /* colors */
-  --yellow: #F4D04E;
-  --gray-light: #6B6B6B;
-  --gray-dark: #111111;
-  --white: #ffffff;
+    --yellow: #F4D04E;
+    --gray-light: #6B6B6B;
+    --gray-dark: #111111;
+    --white: #ffffff;
     /* font sizes  */
-  --medium-sm: 14px;
-  --medium: 16px;
-  --extra-bold: 24px;
-  --extra-bold-sm: 14px;
+    --medium-sm: 14px;
+    --medium: 16px;
+    --extra-bold: 24px;
+    --extra-bold-sm: 14px;
     /* spacing */
-  --space-200: 16px;
-  --spacing-150: 12px;
-  --spacing-100: 8px;
-  --spacing-50: 4px;
+    --space-200: 16px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+    --spacing-50: 4px;
 }
+
 /* -------Global--------- */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Figtree", sans-serif;
+}
 
 body {
     background-color: var(--yellow);
-    font-family: "Figtree", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
     height: 100vh;
 }
+
 /* -------Containers--------- */
 
 .container {
@@ -38,10 +45,27 @@ body {
     padding: var(--space-200);
     background-color: var(--white);
     border-radius: 20px;
+    gap: var(--space-200);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-150);
 }
 
 .profile-container {
     display: flex;
     align-items: center;
     gap: var(--spacing-150);
+}
+
+/* ------Images------- */
+
+.banner-img {
+    border-radius: 10px;
+}
+
+.profile-img {
+    width: 32px;
 }
