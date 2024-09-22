@@ -69,3 +69,12 @@ body {
 .profile-img {
     width: 32px;
 }
+
+/* Active state */
+.hover {
+    cursor: pointer;
+}
+
+.hover:hover {
+    color: var(--yellow);
+}
