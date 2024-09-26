@@ -70,11 +70,27 @@ body {
     width: 32px;
 }
 
-/* Active state */
-.hover {
-    cursor: pointer;
+/*------ Buttons ------*/
+button {
+    background-color: var(--yellow);
+    width: 73px;
+    height: 26px;
+    padding: var(--spacing-50), var(--spacing-150);
+    border-radius: 5px;
+    border-style: none;
+    font-size: var(--extra-bold-sm);
+    font-weight: 800;
 }
 
-.hover:hover {
-    color: var(--yellow);
+/* Active state (would like to make it in a media query) */
+
+@media (min-width: 376px) {
+    .hover {
+        cursor: pointer;
+    }
+    
+    .hover:hover {
+        color: var(--yellow);
+    }
+    
 }
