@@ -36,6 +36,19 @@ body {
     height: 100vh;
 }
 
+h1 {
+    font-size: var(--extra-bold);
+}
+
+p{
+    font-size: var(--medium-sm);
+}
+
+.gray-txt {
+    color: var(--gray-light);
+    font-size: 14px;
+}
+
 /* -------Containers--------- */
 
 .container {
@@ -46,6 +59,8 @@ body {
     background-color: var(--white);
     border-radius: 20px;
     gap: var(--space-200);
+    border: 1px solid var(--gray-dark);
+    box-shadow: 8px 8px 0 0 #000;
 }
 
 .text-container {
@@ -64,6 +79,7 @@ body {
 
 .banner-img {
     border-radius: 10px;
+    margin: var(--spacing);
 }
 
 .profile-img {
