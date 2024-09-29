@@ -24,6 +24,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Figtree", sans-serif;
 }
 
@@ -41,12 +42,17 @@ h1 {
 }
 
 p{
-    font-size: var(--medium-sm);
+    font-size: 12px;
 }
 
 .gray-txt {
     color: var(--gray-light);
     font-size: 14px;
+}
+
+.profile_name {
+    font-size: 14px;
+    font-weight: 800;
 }
 
 /* -------Containers--------- */
@@ -64,9 +70,11 @@ p{
 }
 
 .text-container {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: var(--spacing-150);
+    
 }
 
 .profile-container {
@@ -79,7 +87,6 @@ p{
 
 .banner-img {
     border-radius: 10px;
-    margin: var(--spacing);
 }
 
 .profile-img {
