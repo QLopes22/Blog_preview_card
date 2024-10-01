@@ -108,6 +108,18 @@ button {
 /* Active state (would like to make it in a media query) */
 
 @media (min-width: 376px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 386px;
+        padding: var(--space-200);
+        background-color: var(--white);
+        border-radius: 20px;
+        gap: var(--space-200);
+        border: 1px solid var(--gray-dark);
+        box-shadow: 8px 8px 0 0 #000;
+    }
+
     .hover {
         cursor: pointer;
     }
@@ -117,3 +129,6 @@ button {
     }
     
 }
+
+
+/* you finished the mobile now focus on rem font sizes, tablet, and desktop */
