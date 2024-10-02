@@ -9,15 +9,15 @@
     --gray-dark: #111111;
     --white: #ffffff;
     /* font sizes  */
-    --medium-sm: 14px;
-    --medium: 16px;
-    --extra-bold: 24px;
-    --extra-bold-sm: 14px;
+    --medium-sm: .875rem;
+    --medium: 1rem;
+    --extra-bold: 1.5rem;
+    --extra-bold-sm: .875rem;
     /* spacing */
-    --space-200: 16px;
-    --spacing-150: 12px;
-    --spacing-100: 8px;
-    --spacing-50: 4px;
+    --space-200: 1rem;
+    --spacing-150: .75rem;
+    --spacing-100: .5rem;
+    --spacing-50: .25rem;
 }
 
 /* -------Global--------- */
@@ -42,16 +42,16 @@ h1 {
 }
 
 p{
-    font-size: 12px;
+    font-size: .75rem;
 }
 
 .gray-txt {
     color: var(--gray-light);
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .profile_name {
-    font-size: 14px;
+    font-size: .875rem;
     font-weight: 800;
 }
 
